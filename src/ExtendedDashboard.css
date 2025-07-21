@@ -1,0 +1,10 @@
+.container {
+  max-width: 1200px;
+}
+.table-auto th, .table-auto td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.table-auto th {
+  background-color: #f4f4f4;
+}
