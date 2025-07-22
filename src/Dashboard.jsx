@@ -22,7 +22,7 @@ const app = initializeApp(firebaseConfig, 'default-app-id');
 const auth = getAuth(app);
 const db = getFirestore(app);
 
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://nexora-main-a064225.kuberns.cloud';
 
 // ErrorBoundary and other components remain unchanged
 class ErrorBoundary extends React.Component {
