@@ -35,7 +35,7 @@ const VerifyEmail = () => {
         if (!user) throw new Error('User not found.');
 
         // Send user data to backend to store in Firestore
-        const response = await fetch('https://nexora-main-a064225.kuberns.cloud/api/store-user', {
+        const response = await fetch('https://muhammadhamza125.pythonanywhere.com/api/store-user', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({

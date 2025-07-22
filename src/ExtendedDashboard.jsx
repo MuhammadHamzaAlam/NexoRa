@@ -1030,9 +1030,9 @@ const ExtendedDashboard = ({ userId, onLogout }) => {
     const fetchData = async () => {
       try {
         const endpoints = [
-          { url: 'https://nexora-main-a064225.kuberns.cloud/get_dashboard_data', setter: setDashboardData },
-          { url: 'https://nexora-main-a064225.kuberns.cloud/get_analytics_data', setter: setAnalyticsData },
-          { url: 'https://nexora-main-a064225.kuberns.cloud/get_ai_solutions_data', setter: setAiSolutionsData },
+          { url: 'https://muhammadhamza125.pythonanywhere.com/get_dashboard_data', setter: setDashboardData },
+          { url: 'https://muhammadhamza125.pythonanywhere.com/get_analytics_data', setter: setAnalyticsData },
+          { url: 'https://muhammadhamza125.pythonanywhere.com/get_ai_solutions_data', setter: setAiSolutionsData },
         ];
 
         for (const { url, setter } of endpoints) {
@@ -1073,7 +1073,7 @@ const ExtendedDashboard = ({ userId, onLogout }) => {
     formData.append('userId', userId);
 
     try {
-      const response = await fetch('https://nexora-main-a064225.kuberns.cloud/upload_historical_data', {
+      const response = await fetch('https://muhammadhamza125.pythonanywhere.com/upload_historical_data', {
         method: 'POST',
         headers: { Authorization: `Bearer ${idToken}` },
         body: formData,
@@ -1084,13 +1084,13 @@ const ExtendedDashboard = ({ userId, onLogout }) => {
       setFile(null); // Reset file input
       // Refresh data after upload
       const [dashboardResponse, analyticsResponse, aiSolutionsResponse] = await Promise.all([
-        fetch(`https://nexora-main-a064225.kuberns.cloud/get_dashboard_data?userId=${userId}`, {
+        fetch(`https://muhammadhamza125.pythonanywhere.com/get_dashboard_data?userId=${userId}`, {
           headers: { Authorization: `Bearer ${idToken}` },
         }),
-        fetch(`https://nexora-main-a064225.kuberns.cloud/get_analytics_data?userId=${userId}`, {
+        fetch(`https://muhammadhamza125.pythonanywhere.com/get_analytics_data?userId=${userId}`, {
           headers: { Authorization: `Bearer ${idToken}` },
         }),
-        fetch(`https://nexora-main-a064225.kuberns.cloud/get_ai_solutions_data?userId=${userId}`, {
+        fetch(`https://muhammadhamza125.pythonanywhere.com/get_ai_solutions_data?userId=${userId}`, {
           headers: { Authorization: `Bearer ${idToken}` },
         }),
       ]);

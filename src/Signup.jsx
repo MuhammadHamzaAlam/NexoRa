@@ -45,7 +45,7 @@ const Signup = () => {
 
       // Customize the verification link to include user data
       const actionCodeSettings = {
-        url: `https://nexora-main-a064225.kuberns.cloud/verify-email?oobCode={oobCode}&email=${encodeURIComponent(email)}&firstName=${encodeURIComponent(firstName)}&lastName=${encodeURIComponent(lastName)}&business=${encodeURIComponent(business)}&createdAt=${encodeURIComponent(user.metadata.creationTime)}`,
+        url: `https://muhammadhamza125.pythonanywhere.com/verify-email?oobCode={oobCode}&email=${encodeURIComponent(email)}&firstName=${encodeURIComponent(firstName)}&lastName=${encodeURIComponent(lastName)}&business=${encodeURIComponent(business)}&createdAt=${encodeURIComponent(user.metadata.creationTime)}`,
         handleCodeInApp: true,
       };
 

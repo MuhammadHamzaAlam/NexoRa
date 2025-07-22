@@ -308,7 +308,7 @@ const ForgotPassword = ({ onNavigateToLogin }) => {
     setErrorMessage('');
 
     try {
-      const response = await axios.post('https://nexora-main-a064225.kuberns.cloud/api/send-otp', { email }, {
+      const response = await axios.post('https://muhammadhamza125.pythonanywhere.com/api/send-otp', { email }, {
         headers: {
           'Content-Type': 'application/json',
           'Accept': 'application/json'
