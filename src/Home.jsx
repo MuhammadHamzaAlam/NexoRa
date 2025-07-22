@@ -427,13 +427,13 @@ const Home = () => {
           { section: 'case', url: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=600&q=80' },
           { section: 'predictive', url: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=500&q=80' },
           { section: 'visibility', url: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=500&q=80' },
-          { section: 'enhancement', url: '/enhacement1.jpg' },
+          { section: 'enhancement', url: '/images/enhacement1.jpg' },
           { section: 'inventory', url: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=500&q=80' },
           { section: 'decision', url: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=500&q=80' },
           { section: 'cost', url: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=600&q=80' },
           { section: 'transparency', url: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=500&q=80' },
           { section: 'manufacturing', url: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=600&q=80' },
-          { section: 'ecommerce', url: '/e commerce.jpg' },
+          { section: 'ecommerce', url: '/images/e commerce.jpg' },
         ]);
       }
     };
@@ -905,7 +905,7 @@ const Home = () => {
             </p>
           </div>
           <div className="md:w-1/2">
-            <img src="/mission1.jpg" alt="Mission" className="w-full max-w-3xl rounded-lg border border-teal-400" />
+            <img src="/images/mission1.jpg" alt="Mission" className="w-full max-w-3xl rounded-lg border border-teal-400" />
           </div>
         </div>
       </section>
@@ -914,7 +914,7 @@ const Home = () => {
       <section className="features-section py-24 px-6 max-w-8xl mx-auto relative z-20 bg-gray-900 card-3d holo-scan">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           <div className="text-center p-10 bg-gray-800 border border-teal-400 border-opacity-20 rounded-lg shadow-lg backdrop-blur-md hover:bg-gray-700 hover:scale-105 hover:shadow-xl transition-all duration-300 card-3d holo-scan">
-            <img src="/predictive analytics.jpg" alt="Predictive Analytics" className="mx-auto mb-8 w-full max-w-2xl h-80 object-cover rounded" />
+            <img src="/images/predictive analytics.jpg" alt="Predictive Analytics" className="mx-auto mb-8 w-full max-w-2xl h-80 object-cover rounded" />
             <h3 className="text-3xl font-bold text-teal-400">Predictive Analytics Engine</h3>
             <p className="mt-6 text-lg text-gray-200 text-left" data-gsap="description">
               Forecast demand accurately and mitigate risks with our advanced predictive analytics, ensuring optimal inventory levels and reduced stockouts.
@@ -922,7 +922,7 @@ const Home = () => {
             <button className="mt-8 bg-teal-600 text-white px-8 py-4 rounded hover:bg-teal-700 text-lg">Learn More</button>
           </div>
           <div className="text-center p-10 bg-gray-800 border border-teal-400 border-opacity-20 rounded-lg shadow-lg backdrop-blur-md hover:bg-gray-700 hover:scale-105 hover:shadow-xl transition-all duration-300 card-3d holo-scan">
-            <img src="/dashboard.jpg" alt="Real-Time Visibility" className="mx-auto mb-8 w-full max-w-2xl h-80 object-cover rounded" />
+            <img src="/images/dashboard.jpg" alt="Real-Time Visibility" className="mx-auto mb-8 w-full max-w-2xl h-80 object-cover rounded" />
             <h3 className="text-3xl font-bold text-teal-400">Real-Time Visibility Dashboard</h3>
             <p className="mt-6 text-lg text-gray-200 text-left" data-gsap="description">
               Gain end-to-end visibility into your supply chain with our real-time dashboard, enabling swift issue resolution.
@@ -930,7 +930,7 @@ const Home = () => {
             <button className="mt-8 bg-teal-600 text-white px-8 py-4 rounded hover:bg-teal-700 text-lg">Learn More</button>
           </div>
           <div className="text-center p-10 bg-gray-800 border border-teal-400 border-opacity-20 rounded-lg shadow-lg backdrop-blur-md hover:bg-gray-700 hover:scale-105 hover:shadow-xl transition-all duration-300 card-3d holo-scan">
-            <img src="/logistics.jpg" alt="Smart Logistics" className="mx-auto mb-8 w-full max-w-2xl h-80 object-cover rounded" />
+            <img src="/images/logistics.jpg" alt="Smart Logistics" className="mx-auto mb-8 w-full max-w-2xl h-80 object-cover rounded" />
             <h3 className="text-3xl font-bold text-teal-400">Smart Logistics Optimization</h3>
             <p className="mt-6 text-lg text-gray-200 text-left" data-gsap="description">
               Optimize transportation routes and logistics operations with our smart solutions, reducing costs and improving delivery times significantly.
@@ -938,7 +938,7 @@ const Home = () => {
             <button className="mt-8 bg-teal-600 text-white px-8 py-4 rounded hover:bg-teal-700 text-lg">Learn More</button>
           </div>
           <div className="text-center p-10 bg-gray-800 border border-teal-400 border-opacity-20 rounded-lg shadow-lg backdrop-blur-md hover:bg-gray-700 hover:scale-105 hover:shadow-xl transition-all duration-300 card-3d holo-scan">
-            <img src="/inventory.jpg" alt="Automated Inventory" className="mx-auto mb-8 w-full max-w-2xl h-80 object-cover rounded" />
+            <img src="/images/inventory.jpg" alt="Automated Inventory" className="mx-auto mb-8 w-full max-w-2xl h-80 object-cover rounded" />
             <h3 className="text-3xl font-bold text-teal-400">Automated Inventory Management</h3>
             <p className="mt-6 text-lg text-gray-200 text-left" data-gsap="description">
               Automate your inventory management processes with AI-driven insights, minimizing waste and maximizing efficiency.
@@ -960,21 +960,21 @@ const Home = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-12">
           <div className="text-center p-10 bg-gray-800 border border-teal-400 border-opacity-20 rounded-lg shadow-lg backdrop-blur-md hover:bg-gray-700 hover:scale-105 hover:shadow-xl transition-all duration-300 card-3d holo-scan">
-            <img src="/decision.jpg" alt="Enhanced Decision Making" className="mx-auto mb-8 w-full max-w-2xl h-80 object-cover rounded" />
+            <img src="/images/decision.jpg" alt="Enhanced Decision Making" className="mx-auto mb-8 w-full max-w-2xl h-80 object-cover rounded" />
             <h3 className="text-3xl font-bold text-teal-400">Enhanced Decision Making</h3>
             <p className="mt-6 text-lg text-gray-200 text-left" data-gsap="description">
               Leverage AI insights for smarter, data-driven decisions across your supply chain.
             </p>
           </div>
           <div className="text-center p-10 bg-gray-800 border border-teal-400 border-opacity-20 rounded-lg shadow-lg backdrop-blur-md hover:bg-gray-700 hover:scale-105 hover:shadow-xl transition-all duration-300 card-3d holo-scan">
-            <img src="/cost.jpg" alt="Reduced Operational Cost" className="mx-auto mb-8 w-full max-w-2xl h-80 object-cover rounded" />
+            <img src="/images/cost.jpg" alt="Reduced Operational Cost" className="mx-auto mb-8 w-full max-w-2xl h-80 object-cover rounded" />
             <h3 className="text-3xl font-bold text-teal-400">Reduced Operational Cost</h3>
             <p className="mt-6 text-lg text-gray-200 text-left" data-gsap="description">
               Optimize processes to cut costs and improve profitability with AI efficiency.
             </p>
           </div>
           <div className="text-center p-10 bg-gray-800 border border-teal-400 border-opacity-20 rounded-lg shadow-lg backdrop-blur-md hover:bg-gray-700 hover:scale-105 hover:shadow-xl transition-all duration-300 card-3d holo-scan">
-            <img src="/transparency.jpeg" alt="Increased Transparency" className="mx-auto mb-8 w-full max-w-2xl h-80 object-cover rounded" />
+            <img src="/images/transparency.jpeg" alt="Increased Transparency" className="mx-auto mb-8 w-full max-w-2xl h-80 object-cover rounded" />
             <h3 className="text-3xl font-bold text-teal-400">Increased Transparency</h3>
             <p className="mt-6 text-lg text-gray-200 text-left" data-gsap="description">
               Gain full visibility into your supply chain operations with real-time tracking.
@@ -1069,7 +1069,7 @@ const Home = () => {
           </form>
         </div>
         <div className="mt-12 md:mt-0 md:w-1/2 md:pl-12">
-          <img src="/GIT.jpg" alt="Map" className="w-full max-w-2xl rounded-lg border border-teal-400" />
+          <img src="/images/GIT.jpg" alt="Map" className="w-full max-w-2xl rounded-lg border border-teal-400" />
         </div>
       </section>
 

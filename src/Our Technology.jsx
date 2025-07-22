@@ -289,7 +289,7 @@ const OurTechnology = () => {
           </div>
           <div className="md:w-1/2">
             <video 
-              src="/core-technology.mp4" 
+              src="/images/core-technology.mp4" 
               className="w-full max-w-3xl rounded-lg border border-teal-400" 
               autoPlay 
               loop 
@@ -306,7 +306,7 @@ const OurTechnology = () => {
         <h2 className="text-6xl md:text-7xl font-bold mb-12 text-center text-teal-400">Innovative AI Solutions</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div className="text-center p-10 bg-gray-800 border border-teal-400 border-opacity-20 rounded-lg shadow-lg backdrop-blur-md hover:bg-gray-700 hover:scale-105 hover:shadow-xl transition-all duration-300 card-3d holo-scan">
-            <img src="/supplier_risk.jpg" alt="Supplier Risk Assessment" className="mx-auto mb-8 w-full max-w-2xl h-80 object-cover rounded" />
+            <img src="/images/supplier_risk.jpg" alt="Supplier Risk Assessment" className="mx-auto mb-8 w-full max-w-2xl h-80 object-cover rounded" />
             <h3 className="text-3xl font-bold text-teal-400">Supplier Risk Assessment</h3>
             <p className="mt-6 text-lg text-gray-200 text-left" data-gsap="description">
               Evaluates supplier reliability using AI-driven analysis of performance metrics, financial stability, and external risk factors, ensuring robust supplier selection.
@@ -314,7 +314,7 @@ const OurTechnology = () => {
             <button className="mt-8 bg-teal-600 text-white px-8 py-4 rounded hover:bg-teal-700 text-lg">Learn More</button>
           </div>
           <div className="text-center p-10 bg-gray-800 border border-teal-400 border-opacity-20 rounded-lg shadow-lg backdrop-blur-md hover:bg-gray-700 hover:scale-105 hover:shadow-xl transition-all duration-300 card-3d holo-scan">
-            <img src="/anomalies.jpeg" alt="Anomaly Detection" className="mx-auto mb-8 w-full max-w-2xl h-80 object-cover rounded" />
+            <img src="/images/anomalies.jpeg" alt="Anomaly Detection" className="mx-auto mb-8 w-full max-w-2xl h-80 object-cover rounded" />
             <h3 className="text-3xl font-bold text-teal-400">Anomaly Detection</h3>
             <p className="mt-6 text-lg text-gray-200 text-left" data-gsap="description">
               Detects and flags unusual patterns in sales or supply chain data, such as unexpected spikes or drops, enabling proactive issue resolution.
@@ -322,7 +322,7 @@ const OurTechnology = () => {
             <button className="mt-8 bg-teal-600 text-white px-8 py-4 rounded hover:bg-teal-700 text-lg">Learn More</button>
           </div>
           <div className="text-center p-10 bg-gray-800 border border-teal-400 border-opacity-20 rounded-lg shadow-lg backdrop-blur-md hover:bg-gray-700 hover:scale-105 hover:shadow-xl transition-all duration-300 card-3d holo-scan">
-            <img src="/scenario.jpg" alt="Scenario Analysis" className="mx-auto mb-8 w-full max-w-2xl h-80 object-cover rounded" />
+            <img src="/images/scenario.jpg" alt="Scenario Analysis" className="mx-auto mb-8 w-full max-w-2xl h-80 object-cover rounded" />
             <h3 className="text-3xl font-bold text-teal-400">Scenario Analysis</h3>
             <p className="mt-6 text-lg text-gray-200 text-left" data-gsap="description">
               Simulates multiple supply chain scenarios to evaluate the impact of disruptions or strategic decisions, empowering data-driven planning.
@@ -340,17 +340,17 @@ const OurTechnology = () => {
             {
               title: 'Proactive Disruption Management',
               desc: 'Our anomaly detection and scenario analysis tools identify potential disruptions early, enabling businesses to mitigate risks and maintain operational continuity, reducing downtime by up to 30%.',
-              img: '/disruption.jpg',
+              img: '/images/disruption.jpg',
             },
             {
               title: 'Enhanced Supply Chain Agility',
               desc: 'Dynamic route planning and real-time data integration allow businesses to adapt quickly to market changes, improving responsiveness and customer satisfaction.',
-              img: '/agility.jpg',
+              img: '/images/agility.jpg',
             },
             {
               title: 'Data-Driven Strategic Planning',
               desc: 'Our AI provides deep insights through scenario analysis, helping businesses plan strategically and optimize long-term supply chain performance.',
-              img: '/strategy.jpg',
+              img: '/images/strategy.jpg',
             },
           ].map((item, index) => (
             <div key={index} className="flex flex-col md:flex-row items-center">
