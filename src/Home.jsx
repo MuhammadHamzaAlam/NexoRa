@@ -999,12 +999,12 @@ const Home = () => {
             {
               title: 'Manufacturing Logistics Enhancement',
               desc: 'Developed a predictive analytics system for a manufacturing firm to forecast supply chain disruptions and proactively address potential delays.',
-              img: 'enhancement',
+              img: '/images/enhancement1.jpg',
             },
             {
               title: 'E-commerce Supply Chain Streamlining',
               desc: 'Deployed an AI solution for an e-commerce platform to optimize delivery routes and inventory distribution, boosting efficiency by 15%.',
-              img: 'ecommerce',
+              img: '/images/e commerce.jpg',
             },
           ].map((item, index) => (
             <div key={index} className="flex flex-col md:flex-row items-center">
