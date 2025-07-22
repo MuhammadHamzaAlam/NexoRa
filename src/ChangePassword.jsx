@@ -40,7 +40,7 @@ const ChangePassword = () => {
     }
 
     try {
-      const response = await axios.post('http://localhost:5000/api/change-password', {
+      const response = await axios.post('https://nexora-main-a064225.kuberns.cloud/api/change-password', {
         email,
         newPassword,
       });

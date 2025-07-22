@@ -414,7 +414,7 @@ const Home = () => {
     console.log('Home mounted, fetching images...');
     const fetchImages = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/images');
+        const response = await fetch('https://nexora-main-a064225.kuberns.cloud/api/images');
         if (!response.ok) throw new Error('Failed to fetch images');
         const data = await response.json();
         setImages(data);
@@ -690,7 +690,7 @@ const Home = () => {
   const handleContactSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:5000/api/contact', {
+      const response = await fetch('https://nexora-main-a064225.kuberns.cloud/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),

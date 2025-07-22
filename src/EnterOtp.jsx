@@ -17,7 +17,7 @@ const EnterOtp = () => {
     setMessage('Verifying OTP...');
 
     try {
-      const response = await axios.post('http://localhost:5000/api/verify-otp', { email, otp });
+      const response = await axios.post('https://nexora-main-a064225.kuberns.cloud/api/verify-otp', { email, otp });
       if (response.data.success) {
         setMessage('OTP verified successfully.');
         navigate('/change-password', { state: { email } });
